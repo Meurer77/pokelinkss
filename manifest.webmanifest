@@ -1,0 +1,11 @@
+{
+  "name": "PokéLinks — Pokémon Connections",
+  "short_name": "PokéLinks",
+  "description": "Jogo diário de conexões entre Pokémon.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#0b1b33",
+  "icons": [{"src":"favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
