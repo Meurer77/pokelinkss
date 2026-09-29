@@ -2715,6 +2715,27 @@ Você consegue superar?`;
 }
 
 /* =========================================================
+   CONFERIR / EMBARALHAR / DICA
+========================================================= */
+
+$("checkBtn").onclick = check;
+
+$("shuffleBtn").onclick = ()=>{
+
+  if(!gameActive) return;
+
+  selected = [];
+
+  board = shuffleArray([...board], Math.random());
+
+  updateMessage();
+  render();
+  sound(520,.08);
+};
+
+$("hintBtn").onclick = hint;
+
+/* =========================================================
    MENU
 ========================================================= */
 
